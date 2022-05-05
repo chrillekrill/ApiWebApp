@@ -1,2 +1,5 @@
 # ApiWebApp
 ASP.NET MVC apicontroller
+
+
+JWT token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJhZG1pbiJdfQ.9yoXRFwDagqxeGyjGu_xXadQEZA3iYOBDMfn51sTVUk
