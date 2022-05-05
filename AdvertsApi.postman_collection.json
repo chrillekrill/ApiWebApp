@@ -1,0 +1,190 @@
+{
+	"info": {
+		"_postman_id": "95293afb-092e-4730-ab13-e7f24cb9e7a0",
+		"name": "AdvertsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJhZG1pbiJdfQ.9yoXRFwDagqxeGyjGu_xXadQEZA3iYOBDMfn51sTVUk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7044/api/adverts/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"adverts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Header\":\"Test advert\",\r\n    \"Body\":\"This is a new advert\",\r\n    \"Price\": 150.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7044/api/adverts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"adverts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPatch",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJhZG1pbiJdfQ.9yoXRFwDagqxeGyjGu_xXadQEZA3iYOBDMfn51sTVUk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"op\":\"replace\",\r\n        \"path\":\"body\",\r\n        \"value\": \"new body with patch\"\r\n    },\r\n    {\r\n        \"op\":\"replace\",\r\n        \"path\":\"header\",\r\n        \"value\": \"new header with patch\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7044/api/adverts/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"adverts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get one",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7044/api/adverts/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"adverts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EditPut",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyLCJyb2xlcyI6WyJhZG1pbiJdfQ.9yoXRFwDagqxeGyjGu_xXadQEZA3iYOBDMfn51sTVUk",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Header\":\"hejhej\",\r\n    \"Body\":\"funkar\",\r\n    \"Price\": 180.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7044/api/adverts/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7044",
+					"path": [
+						"api",
+						"adverts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

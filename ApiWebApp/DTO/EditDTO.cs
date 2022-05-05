@@ -2,7 +2,7 @@
 
 namespace ApiWebApp.DTO
 {
-    public class UpdateDTO
+    public class EditDTO
     {
         [MaxLength(100)]
         public string Header { get; set; }

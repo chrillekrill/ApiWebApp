@@ -59,3 +59,11 @@ C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\obj\Debug\net6.0\refint\ApiWebAp
 C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\obj\Debug\net6.0\ApiWebApp.pdb
 C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\obj\Debug\net6.0\ApiWebApp.genruntimeconfig.cache
 C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\obj\Debug\net6.0\ref\ApiWebApp.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\libman.json
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Henri\source\repos\ApiWebApp\ApiWebApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
